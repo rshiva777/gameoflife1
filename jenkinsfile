@@ -3,17 +3,17 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-               mvn --version
+               sh mvn --version
             }
         }
         stage('Test') { 
             steps {
-               mvn --version
+               sh mvn --version
             }
         }
         stage('Deploy') { 
             steps {
-               mvn --version
+               sh mvn --version
             }
         }
     }
